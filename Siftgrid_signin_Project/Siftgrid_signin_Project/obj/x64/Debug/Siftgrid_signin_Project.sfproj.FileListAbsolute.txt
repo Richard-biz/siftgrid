@@ -1,0 +1,2 @@
+C:\Users\venkateshm\Documents\siftgrid\Richard\Siftgrid_signin_Project\Siftgrid_signin_Project\obj\x64\Debug\Siftgrid_signin_Project.sfprojResolveAssemblyReference.cache
+C:\Users\venkateshm\Desktop\Richard\Siftgrid_signin_Project\Siftgrid_signin_Project\obj\x64\Debug\Siftgrid_signin_Project.sfprojResolveAssemblyReference.cache

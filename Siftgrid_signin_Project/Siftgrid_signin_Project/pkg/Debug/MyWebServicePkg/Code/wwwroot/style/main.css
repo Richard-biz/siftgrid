@@ -1,0 +1,15 @@
+﻿.container {
+    color: white;
+    padding-top: 10%; 
+    padding-left: 100%;   
+}
+
+.companyInput {
+    border: 10px solid transparent;
+    background-color: red;
+    border:0px solid #1a1a1a;
+    background: transparent;
+    border: none;
+    width: 30%;
+    height: 5%;
+}

@@ -1,0 +1,24 @@
+﻿<div align="center">
+    <h1>WELCOME</h1>
+    <div *ngIf="invalidCompany">
+        <h4>
+            We couldn't find your company. If you can't remember <br>your company's domain, we can
+            <a href="#" [routerLink]="['/reminder']"> send you a reminder </a><br>Would you like to try again?
+        </h4>
+    </div>
+    <br>
+    <h4>Please enter your company's ShiftGrid domain</h4>
+    <br>
+    <form>
+        <h2>
+            <label for="company">Company:</label>
+            <input type="text" name="company" class="companyInput" placeholder="Company Name" style="background-color:#303030; color: white;"  #companyName />
+            .siftgrid.com
+            <br>
+            <br>
+            <button type="button" class="btn btn-outline-primary" (click)="checkCompanyName(companyName.value)">Continue</button>
+        </h2>
+    </form>
+    <br>
+    <h5>Can't remember your company's doamin?<a href="#" [routerLink]="['/findcompany']"> Find Your Company</a></h5>
+</div>
